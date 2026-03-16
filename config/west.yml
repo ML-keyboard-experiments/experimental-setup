@@ -1,11 +1,30 @@
 manifest:
+  defaults:
+    remote: ML-keyboard-experiments
+
   remotes:
+    - name: ML-keyboard-experiments
+      url-base: https://github.com/ML-keyboard-experiments
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    # - name: zephyr
+    #   # remote: zmkfirmware
+    #   revision: v3.5.0+zmk-fixes
+    #   clone-depth: 1
+    #   import:
+    #     name-allowlist:
+    #       - cmsis
+    #       - hal_nordic
+    #       - hal_rpi_pico
+    #       - hal_stm32
+    #       - lvgl
+    #       - tinycrypt
+
   self:
     path: config

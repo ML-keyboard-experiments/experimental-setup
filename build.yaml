@@ -1,7 +1,7 @@
 include:
-  - board: xiao_ble//zmk
+  - board: xiao_ble
     shield: totem_central
-  - board: xiao_ble//zmk
+  - board: xiao_ble
     shield: totem_peripheral
 
   - board: xiao_ble//zmk
