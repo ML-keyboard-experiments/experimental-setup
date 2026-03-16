@@ -1,6 +1,6 @@
 include:
   - board: xiao_ble//zmk
-    shield: totem_left
+    shield: totem_central
   - board: xiao_ble//zmk
-    shield: totem_right
+    shield: totem_peripheral
 # there is no settingsreset (needed) for the XIAO
