@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
- #include "dongle.dtsi"
+ #include "totem.dtsi"
 
  &kscan0 {
      col-gpios
