@@ -1,7 +1,4 @@
 manifest:
-  defaults:
-    remote: ML-keyboard-experiments
-
   remotes:
     - name: ML-keyboard-experiments
       url-base: https://github.com/ML-keyboard-experiments
@@ -10,8 +7,10 @@ manifest:
 
   projects:
     - name: zmk
+      remote: ML-keyboard-experiments
+      revision: experimental-profiling
       # remote: zmkfirmware
-      revision: main
+      # revision: main
       import: app/west.yml
     # - name: zephyr
     #   remote: zmkfirmware

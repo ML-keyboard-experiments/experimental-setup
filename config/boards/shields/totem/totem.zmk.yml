@@ -7,5 +7,6 @@ requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
-  - totem_central
-  - totem_peripheral
+  - peripheral
+  - testing_board
+  - dongle
