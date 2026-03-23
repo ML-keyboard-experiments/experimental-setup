@@ -1,15 +1,15 @@
 include:
   - board: xiao_ble//zmk
     shield: peripheral
-    snippet: zmk-usb-logging
+    # snippet: zmk-usb-logging
   - board: xiao_ble//zmk
     shield: central
-    snippet: zmk-usb-logging
+    # snippet: zmk-usb-logging
   - board: xiao_ble//zmk
     shield: testing_board
-    snippet: zmk-usb-logging
+    # snippet: zmk-usb-logging
   - board: xiao_ble//zmk
     shield: dongle
-    snippet: zmk-usb-logging
+    # snippet: zmk-usb-logging
   - board: xiao_ble//zmk
     shield: settings_reset
